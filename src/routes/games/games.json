@@ -587,6 +587,75 @@
             "image": "kopanito-all-stars-soccer.png",
             "developer": "Merixgames",
             "description": "Fast-paced football game without a referee on the pitch and with crazy super-powers!"
+        },
+        {
+            "name": "Riddle School",
+            "id": "riddle-school",
+            "image": "riddle-school.png",
+            "developer": "Jonochrome",
+            "description": "Riddle School is a 2006 flash based puzzle-solving game.",
+            "emulator": "ruffle"
+        },
+        {
+            "name": "Riddle School 2",
+            "id": "riddle-school-2",
+            "image": "riddle-school-2.png",
+            "developer": "Jonochrome",
+            "description": "Riddle School 2 is a Flash-based point-and-click puzzle game by Jonochrome.",
+            "emulator": "ruffle"
+        },
+        {
+            "name": "Riddle School 3",
+            "id": "riddle-school-3",
+            "image": "riddle-school-3.png",
+            "developer": "Jonochrome",
+            "description": "Riddle School 3 is a Flash-based point-and-click puzzle game by Jonochrome.",
+            "emulator": "ruffle"
+        },
+        {
+            "name": "Riddle School 4",
+            "id": "riddle-school-4",
+            "image": "riddle-school-4.png",
+            "developer": "Jonochrome",
+            "description": "Riddle School 4 is a Flash-based point-and-click puzzle game by Jonochrome.",
+            "emulator": "ruffle"
+        },
+        {
+            "name": "Riddle School 5",
+            "id": "riddle-school-5",
+            "image": "riddle-school-5.png",
+            "developer": "Jonochrome",
+            "description": "Riddle School 5 is a Flash-based point-and-click puzzle game by Jonochrome.",
+            "emulator": "ruffle"
+        },
+        {
+            "name": "A Dance of Fire and Ice",
+            "id": "a-dance-of-fire-and-ice",
+            "image": "a-dance-of-fire-and-ice.png",
+            "developer": "fizzd, Kyle, giacomopc",
+            "description": "A Dance of Fire and Ice is a simple one-button rhythm game."
+        },
+        {
+            "name": "OvO",
+            "id": "ovo",
+            "image": "ovo.png",
+            "developer": "Dedra Games",
+            "description": "OvO is a 2D platformer game where the objective is to go through levels and complete them."
+        },
+        {
+            "name": "Gun Mayhem 2",
+            "id": "gun-mayhem-2",
+            "image": "gun-mayhem-2.png",
+            "developer": "Kevin Gu",
+            "description": "Defeat your powerful enemies by shooting them or blasting them off the platform with dynamite.",
+            "emulator": "ruffle"
+        },
+        {
+            "name": "FeedVid Live",
+            "id": "feedvid-live",
+            "image": "feedvid-live.png",
+            "developer": "Varun R.",
+            "description": "FeedVid Live is a short puzzle game taking place in an unusual livestreaming app."
         }
     ]
 }
