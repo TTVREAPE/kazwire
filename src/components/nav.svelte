@@ -2,6 +2,22 @@
 	import { darkMode } from '../dark';
 	import { onMount } from 'svelte';
 
+	import { auth, googleProvider, user } from '../firebase';
+
+	let loggedIn = false;
+	let localUser = null;
+
+	auth.onAuthStateChanged(function (user) {
+		if (user) {
+			// User is signed in.
+			loggedIn = true;
+			localUser = user;
+		} else {
+			// No user is signed in.
+			loggedIn = false;
+		}
+	});
+
 	onMount(() => {
 		if ('serviceWorker' in navigator) {
 			navigator.serviceWorker.register(window.location.origin + '/sw.js');
@@ -87,6 +103,20 @@
 						>
 					</li>
 				</ul>
+			</div>
+			<div class="text-white ml-auto mr-3 text-xl">
+				{#if localUser}
+					<a href="/account/profile">
+						<img
+							src={localUser.photoURL}
+							class="transition duration-100 hover:scale-[105%] h-8 rounded-full"
+							alt="Profile"
+							referrerpolicy="no-referrer"
+						/>
+					</a>
+				{:else}
+					<a href="/account" class="text-md transition duration-100 hover:scale-[105%]">Login</a>
+				{/if}
 			</div>
 			<div class="float-right text-white text-xl mr-10">
 				<button
